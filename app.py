@@ -24,7 +24,10 @@ def hello_world():
 @app.route('/')
 def index():
     name = "Mi Chiamo Manuel"
-    return render_template('index.html', name=name)
+    return render_template('index.html', name="Pierpaolo"
+                                         surname="Ferrara"
+                                         età="28"
+                                         sesso="Maschio")
 
 
 if __name__ == "__main__":
